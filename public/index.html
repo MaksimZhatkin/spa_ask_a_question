@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.muicss.com/mui-latest/css/mui.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.muicss.com/mui-latest/js/mui.min.js"></script>
+    <title>PureJS project</title>
+</head>
+<body>
+<header class="mui-appbar mui--z1">
+    <div class="mui-container">
+        <table>
+            <tr class="mui--appbar-height">
+                <td class="mui--text-title" align="center"> ASK A QUESTION!</td>
+            </tr>
+        </table>
+    </div>
+</header>
+<div id="content-wrapper" class="mui--text-center">
+    <div class="mui--appbar-height"></div>
+    <form class="mui-form" id="form">
+        <div class="mui-textfield">
+            <textarea id="question-input" minlength="10" maxlength="500" placeholder="WHAT DO YOU WANT TO ASK?"></textarea>
+        </div>
+        <button id="submit" type="submit" class="mui-btn mui-btn--primary" disabled>ASK!</button>
+    </form>
+    <br>
+    <br>
+    <div class="mui--text-black-54 mui--text-body2">YOUR QUESTIONS:</div>
+    <div class="mui-divider"></div>
+    <br>
+    <br>
+    <div class="list-container">
+        <table class="mui-table mui-table--bordered list-container">
+            <thead>
+            <tr>
+                <th>ID</th>
+                <th>Question</th>
+            </tr>
+            </thead>
+            <tbody class="list">
+
+            </tbody>
+        </table>
+    </div>
+</div>
+<footer>
+</footer>
+<script type="text/javascript" src="bundle.3484a6503293c6f358e4.js"></script></body>
+</html>
