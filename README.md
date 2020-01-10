@@ -1,4 +1,4 @@
-#About the project
+# About the project
 
 This simple project was written by me for educational purposes.
 In particular, to study the following topics new to me:
